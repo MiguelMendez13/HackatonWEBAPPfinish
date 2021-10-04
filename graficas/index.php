@@ -115,7 +115,7 @@ else if($embarazo==2){
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet"  type="text/css" href="graficas1.css">
+	<link rel="stylesheet"  type="text/css" href="graficas.css">
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<title>Document</title>
 
@@ -123,7 +123,7 @@ else if($embarazo==2){
 <body>
 
 <section class="content-graphics" id="resultados">
- <div id="estado"  class = "box2">Historico de personas con covid en tu estado: <br> <?php echo $EstadoElegidoText;?></div>
+ <div id="estado"  class = "box2">Historico de personas con covid en tu estado:<?php echo $EstadoElegidoText;?></div>
     <div id="EdadText" class = "box3">Tu edad: <?php echo $edad.$RiesgoEdad; ?></div>
 
     <div class="container graphic-estado" ><canvas id="Estados" width="100" height="75"></canvas></div>
