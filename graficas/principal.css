@@ -1,0 +1,25 @@
+
+
+/*boton*/
+
+/*nav*/
+
+nav{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.nav h3{
+    color: white;
+    font-size: larger;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+
